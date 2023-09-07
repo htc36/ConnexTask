@@ -40,7 +40,7 @@ function App() {
     setApis();
     const intervalId = setInterval(() => {
       setApis();
-    }, 1000 * 20); // in milliseconds
+    }, 1000 * 30); // in milliseconds
     return () => clearInterval(intervalId);
   }, []);
 
