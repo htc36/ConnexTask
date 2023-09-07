@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  background-color: #213547;
+  justify-content: space-around;
+  align-items: center;
+}
+.component {
+  background-color: white;
+  color : black;
+  height: 90%;
+}
+.component.time {
+  display: flex;
+  flex-direction: column;
+  width : 25%;
+  align-items: center;
+  justify-content: center;
+}
+.component.metrics {
+  width : 70%;
+  font-size : 13px;
+  padding-left: 15px;
+  overflow-y: scroll;
+}
